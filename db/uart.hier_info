@@ -1,0 +1,24 @@
+|uart
+clk => tx~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => bit_number[0].CLK
+clk => bit_number[1].CLK
+clk => bit_number[2].CLK
+clk => bit_number[3].CLK
+clk => bit_number[4].CLK
+rx => ~NO_FANOUT~
+tx << tx~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
